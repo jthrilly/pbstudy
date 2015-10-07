@@ -1,8 +1,6 @@
 # Site settings
 title: Personal Budget Study
 email: joshmelville@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-Welcome to the Personal Budgets Study 2015, conducted by Joshua Melville.
 baseurl: "/pbstudy" # the subpath of your site, e.g. /blog/
 copyright: Copyright 2015.
 url: "http://jthrilly.github.io" # the base hostname & protocol for your site
