@@ -1,0 +1,24 @@
+{
+  "name": "pbstudy",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jthrilly/pbstudy",
+  "authors": [
+    "Joshua Melville <joshua.melville@oii.ox.ac.uk>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "bootstrap-sass": "~3.3.5"
+  }
+}

@@ -2,10 +2,9 @@
 title: Personal Budget Study
 email: joshmelville@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+Welcome to the Personal Budgets Study 2015, conducted by Joshua Melville.
 baseurl: "/pbstudy" # the subpath of your site, e.g. /blog/
+copyright: Copyright 2015.
 url: "http://jthrilly.github.io" # the base hostname & protocol for your site
 twitter_username: jthrilly
 github_username:  jthrilly

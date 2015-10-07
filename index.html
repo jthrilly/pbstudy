@@ -2,22 +2,25 @@
 layout: default
 ---
 
-<div class="home">
+<div class="jumbotron">
+    <div class="row">
+        <div class="text-center col-md-4 col-sm-12 hidden-xs">
+            <img src="images/josh1.jpg" class="img-circle" style="width:100%; max-width:300px;margin-top:60px;"/>
+        </div>
+        <div class="col-md-8 col-sm-12">
+            <h1>Hello!</h1>
+            <p class="lead">Welcome to the Personal Budget Study Website</p>
+            <p>My name is Joshua Melville, and I am the researcher running the study. This work is about understanding the way people who use personal budgets are supported, and if you are able to participate I would be very grateful for your time.</p>
+            <br/>
+            <a class="btn btn-lg btn-info" href="../../components/#navbar" role="button">Request an information pack</a>
+            <br/>
+            <a class="btn btn-info btn-link" href="../../components/#navbar" role="button">More about the study &raquo;</a>
+            <a class="btn btn-success btn-link" href="../../components/#navbar" role="button">More about me &raquo;</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 text-center">
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+        </div>
+    </div>
 </div>
