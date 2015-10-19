@@ -14,7 +14,7 @@ I want to understand how social networks might make a difference to how effectiv
 #### Who can take part?
 In order to participate you must be:
 
-- Over 18 and under years old
+- Over 18 years old
 - Have full capacity to make your own decisions
 - Using a personal budget to manage some or all of your social care needs
 
