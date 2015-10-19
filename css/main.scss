@@ -58,9 +58,9 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #E2E2E2;
-    color:#5e5e5e;
+    color:#5c5c5c;
     font-weight: 200;
-     @include gradient-vertical(#fff, #C5E1FF, 0%, 100%);
+     @include gradient-vertical(#f2f2f2, #dadada, 0%, 100%);
     background-attachment: fixed;
 }
 
@@ -74,7 +74,7 @@ body {
 
 .thumbnail {
     padding: $padding-large-horizontal;
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
     font-size: $font-size-small;
 }
 
@@ -150,7 +150,8 @@ h4 {
 .josh-img {
     max-width:280px;
     float:left;
-    margin-right: 20px;
+    // margin-right: 20px;
+    margin: 6px 40px 0 0;
 }
 
 // footer
