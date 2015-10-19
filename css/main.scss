@@ -60,7 +60,7 @@ body {
     background-color: #E2E2E2;
     color:#5e5e5e;
     font-weight: 200;
-     @include gradient-vertical(#f2f2f2, #C7C6C6, 0%, 100%);
+     @include gradient-vertical(#fff, #C5E1FF, 0%, 100%);
     background-attachment: fixed;
 }
 
@@ -74,7 +74,7 @@ body {
 
 .thumbnail {
     padding: $padding-large-horizontal;
-    background-color: #F0F0F0;
+    background-color: #fff;
     font-size: $font-size-small;
 }
 
