@@ -10,34 +10,55 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
-  <form class="form-horizontal">
+  <br/><br/>
+  <form class="form-horizontal" action="http://formspree.io/joshmelville@gmail.com" method="POST">
+      <input type="hidden" name="_next" value="http://morsontologica.com/pbstudy/thanks/" />
+      <input type="hidden" name="_subject" value="New submission!" />
 <fieldset>
 
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-3 control-label" for="name">Name</label>
-  <div class="col-md-6">
-  <input id="name" name="name" type="text" placeholder="Name" class="form-control input-md" required="">
-  <span class="help-block">Enter your name</span>
-  </div>
-</div>
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-3 control-label" for="name">Name</label>
+      <div class="col-md-6">
+      <input id="name" name="name" type="text" placeholder="Name" class="form-control input-md" required="">
+      </div>
+    </div>
 
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-3 control-label" for="email">Email</label>
-  <div class="col-md-6">
-  <input id="email" name="email" type="email" placeholder="Email" class="form-control input-md">
-  <span class="help-block">Enter your email address</span>
-  </div>
-</div>
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-3 control-label" for="email">Email</label>
+      <div class="col-md-6">
+      <input id="email" name="email" type="text" placeholder="Email" class="form-control input-md">
+      </div>
+    </div>
 
-<!-- Textarea -->
-<div class="form-group">
-  <label class="col-md-3 control-label" for="address">Address</label>
-  <div class="col-md-6">
-    <textarea class="form-control" id="address" name="address"></textarea>
-  </div>
-</div>
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-3 control-label" for="telephone">Telephone Number</label>
+      <div class="col-md-6">
+      <input id="telephone" name="telephone" type="text" placeholder="" class="form-control input-md">
+      </div>
+    </div>
+
+    <!-- Textarea -->
+    <div class="form-group">
+      <label class="col-md-3 control-label" for="address">Postal Address</label>
+      <div class="col-md-6">
+        <textarea class="form-control" id="address" name="address" style="height:200px"></textarea>
+      </div>
+    </div>
+
+    <!-- Select Basic -->
+    <div class="form-group">
+      <label class="col-md-3 control-label" for="preferred">Preferred contact method</label>
+      <div class="col-md-6">
+        <select id="preferred" name="preferred" class="form-control">
+          <option value="telephone">Telephone</option>
+          <option value="email">Email</option>
+          <option value="post">Post</option>
+        </select>
+      </div>
+    </div>
 
 <!-- Button -->
 <div class="form-group">
