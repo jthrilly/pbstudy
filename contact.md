@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Request Information Pack
+layout: contact
+title: Get a Participation Pack
 permalink: /info-pack/
 ---
 

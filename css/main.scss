@@ -7,13 +7,13 @@
 
 $pink: #FF89DB;
 // $brand-primary: #37BFFF;
-$brand-info: #FF2F00;
+$brand-info: #FF565B;
 
 $font-size-base:          18px !default;
 
-$line-height-base:        1.628571429 !default; // 20/14
+$line-height-base:        1.428571429 !default; // 20/14
 
-$navbar-default-link-color:                black !default;
+// $navbar-default-link-color:                black !default;
 $padding-base-vertical:     8px !default;
 $padding-base-horizontal:   14px !default;
 
@@ -38,9 +38,6 @@ $border-radius-small:       6px !default;
 
 @import "base";
 
-
-
-
 @mixin bg-gradient-t2b($start-colour, $end-colour) {
     background-color: $start-colour;
     background-image: -webkit-gradient(linear, left top, left bottom, from($start-colour), to($end-colour));
@@ -60,9 +57,24 @@ body {
     margin-top: 15px;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: white;
-    color:#2c2c2c;
+    background-color: #E2E2E2;
+    color:#5e5e5e;
     font-weight: 200;
+     @include gradient-vertical(#f2f2f2, #d2d2d2, 0%, 100%);
+}
+
+@media (min-width: 768px) {
+    .container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
+        margin-right: -15px;
+        margin-left: -15px; 
+    }
+}
+
+
+.thumbnail {
+    padding: $padding-large-horizontal;
+    background-color: #F0F0F0;
+    font-size: $font-size-small;
 }
 
 .jumbotron {
@@ -71,11 +83,6 @@ body {
 
 .jumbotron p {
     font-weight: inherit;
-    font-size: inherit;
-}
-
-.jumbotron p.lead {
-    font-size: 30px;
 }
 
 .vcenter {
@@ -88,6 +95,19 @@ body {
     @include bg-gradient-t2b(#002147,#000621);
     background:transparent;
     border-color: transparent;
+}
+
+.page-header {
+    padding-bottom: 0.5px;
+    // border-bottom: 3px solid #EC3D42;
+    // background: #FF565B;
+    margin: 0 0 29px;
+    // padding: 220px 20px;
+    // color: white;
+    // background: url('../images/sea.jpg');
+    // background-position: 50% 50%;
+    // background-size:cover;
+    // border-radius: $border-radius-base;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -117,7 +137,26 @@ body {
   transform: scaleX(1);
 }
 
+h4 {
+    margin-top: 35px;
+}
+
 .page-header {
     padding-bottom: 0.5px;
-    border-bottom: 3px solid #FF2F00;
+    border-bottom: 3px solid $brand-info;
+}
+
+.josh-img {
+    max-width:200px;
+    float:left;
+    margin-right: 20px;
+}
+
+// footer
+
+footer {
+    margin-top: 50px;
+    padding:20px;
+    border-top: 2px solid $brand-info;
+    font-size: $font-size-small;
 }
